@@ -1,5 +1,5 @@
 # Ex.08 Design of a Standard Calculator
-## Date:15.12.2023
+## Date:20.12.2023
 
 ## AIM:
 To design a web application for a standard calculator with minimum five operations.
@@ -28,10 +28,12 @@ Publish the website in the given URL.
 ```
 calc.html
 
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Calculator</title>
+        <title>CALCULATOR </title>
         
         <script>
         function calculate(args)
@@ -81,7 +83,7 @@ calc.html
                 width: 400px;
                 background-color:rgb(162, 36, 36);
                 margin: 0 auto; 
-                margin-top: 250px;
+                margin-top: 170px;
                 text-align: center;
                 
             }
@@ -135,7 +137,8 @@ calc.html
     </head>
 <body>
     <div class="calculator-container">
-        <h1>CALCULATOR</h1>
+        <h1>HAREESH</h1>
+        <h2>REGISTER NO.:23013706</h2>
         <div id="result">0</div>
         <button onclick="calculate(event);">7</button>
         <button onclick="calculate(event);">8</button>
@@ -146,7 +149,7 @@ calc.html
         <button onclick="calculate(event);">5</button>
         <button onclick="calculate(event);">6</button>
         <button class="bluee"  onclick="calculate(event);">*</button>
-        <button class="bluee"  onclick="calculate(event);">√ </button><br>
+        <button class="bluee"  onclick="calculate(event);">&radic; </button><br>
         <button onclick="calculate(event);">1</button>
         <button onclick="calculate(event);">2</button>
         <button onclick="calculate(event);">3</button>
@@ -163,8 +166,8 @@ calc.html
 
 ```
 ## OUTPUT:
-![Alt text](<Screenshot (62).png>)
-
+![Alt text](<Screenshot (65).png>)
+![Alt text](<Screenshot (66).png>)
 
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
